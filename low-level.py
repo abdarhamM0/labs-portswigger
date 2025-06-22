@@ -1,7 +1,12 @@
+# Lab: Low-level logic flaw
+# URL: https://portswigger.net/web-security/sql-injection/lab-blind-time-delays
+# Description: 📌 The basic idea:
+    #In some languages, servers, or databases, the numbers are represented inside the memory using specific data types (InT32, INT64).This type remains a maximum limit and a minimum of value that he can store.
+# Author: Abdarhman
+
+
 import requests
 import re 
-import os
-
 
 url= 'REPLACE-YOUR-LAB/cart'
 
