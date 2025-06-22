@@ -30,7 +30,7 @@ session.cookies.update(my_Cookies)
 
 
 
-for i in range(1):
+for i in range(166):
     req= session.post(url,data=my_data)
 
     match=re.search(r'<th>Total:</th>\s*<th>(-?\$\d[\d,\.]*)</th>',req.text).group(1)
